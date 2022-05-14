@@ -7,11 +7,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
+
+a {
+  text-decoration: none;
+  font-size: smaller;
+}
+
 #str {
   position: absolute;
   left: 50%;
   top: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+#footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
 }
